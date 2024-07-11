@@ -6,14 +6,15 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   font-family: cool;
+  overflow-x: hidden;
 }
 
-body {
+/* body {
   height: 100vh;
   width: 100vw;
-}
+} */
 
 .hero {
   height: 100vh;
@@ -33,14 +34,13 @@ body {
 main {
   height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 .attractions {
   height: 50%;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #faebd7;
 }
 
@@ -130,7 +130,7 @@ main {
 }
 
 footer {
-  width: 100%;
+  width: 100vw;
   background-color: #ee4b2b;
   text-align: center;
   padding: 3px;
